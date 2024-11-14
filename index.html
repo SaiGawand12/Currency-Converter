@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading text-center display-4">Currency Converter</h1>
+        <hr>
+        <div class="main">
+            <div class="form-group">
+                <label for="oamount">Amount to Convert:</label>
+                <input type="text" class="form-control searchBox" placeholder="0.00" id="oamount">
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">From</span>
+                        </div>
+                        <select class="form-control from" id="sel1">
+                            <option value="">Select One …</option>
+                            <!-- Options will be populated by JavaScript -->
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">To</span>
+                        </div>
+                        <select class="form-control to" id="sel2">
+                            <option value="">Select One …</option>
+                            <!-- Options will be populated by JavaScript -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" id="convertBtn">Convert</button>
+            <h2 class="result text-center" id="result"></h2>
+        </div>
+    </div>
+
+    <!-- Informational Section -->
+    <div class="container info-section mt-5">
+        <h2 class="text-center">About Currency Conversion</h2>
+        <p>
+            Currency conversion is the process of converting one currency into another currency. This is necessary for international trade, travel, and investment. Currency exchange rates fluctuate based on market conditions, economic indicators, and geopolitical events.
+        </p>
+        <h4>Tips for Currency Conversion:</h4>
+        <ul>
+            <li>Always check the latest exchange rates before making a conversion.</li>
+            <li>Consider transaction fees when converting currencies, as they can affect the final amount you receive.</li>
+            <li>Use reputable currency converters and financial institutions for accurate rates.</li>
+            <li>Be aware of the market trends, as rates can change rapidly.</li>
+        </ul>
+        <p class="text-center">
+            For more information, you can visit financial news websites or consult with a financial advisor.
+        </p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
