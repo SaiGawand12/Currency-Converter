@@ -20,7 +20,7 @@ A simple and responsive currency converter web application that allows users to 
 
 ## Demo
 
-You can view a live demo of the project at: [Live Demo Link](#) *(Add your live demo link here)*
+You can view a live demo of the project at: [Live Demo Link](https://saigawand12.github.io/Currency-Converter/)
 
 ## Installation
 
@@ -48,10 +48,10 @@ To run this project locally, follow these steps:
 Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT [License](https://github.com/SaiGawand12/Currency-Converter/blob/main/LICENSE) - see the  file for details.
 
 ## Acknowledgments
 
-* Thanks to [Bootstrap] (https://getbootstrap.com/) for the responsive design framework.
+* Thanks to [Bootstrap](https://getbootstrap.com/) for the responsive design framework.
 * Thanks to [Select2](https://select2.org/) for the enhanced dropdown functionality.
 * Thanks to [Unsplash](https://unsplash.com/) for the background image.
